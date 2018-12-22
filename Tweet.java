@@ -27,63 +27,33 @@ public class Tweet {
 	private Entities entities;
 	private User user;
 	
-	/**
-	 * @return the filter_level
-	 */
 	public String getFilter_level() {
 		return filter_level;
 	}
-	/**
-	 * @param filter_level the filter_level to set
-	 */
 	public void setFilter_level(String filter_level) {
 		this.filter_level = filter_level;
 	}
-	/**
-	 * @return the retweeted
-	 */
 	public boolean isRetweeted() {
 		return retweeted;
 	}
-	/**
-	 * @param retweeted the retweeted to set
-	 */
 	public void setRetweeted(boolean retweeted) {
 		this.retweeted = retweeted;
 	}
-	/**
-	 * @return the in_reply_to_screen_name
-	 */
 	public String getIn_reply_to_screen_name() {
 		return in_reply_to_screen_name;
 	}
-	/**
-	 * @param in_reply_to_screen_name the in_reply_to_screen_name to set
-	 */
 	public void setIn_reply_to_screen_name(String in_reply_to_screen_name) {
 		this.in_reply_to_screen_name = in_reply_to_screen_name;
 	}
-	/**
-	 * @return the possibly_sensitive
-	 */
 	public boolean isPossibly_sensitive() {
 		return possibly_sensitive;
 	}
-	/**
-	 * @param possibly_sensitive the possibly_sensitive to set
-	 */
 	public void setPossibly_sensitive(boolean possibly_sensitive) {
 		this.possibly_sensitive = possibly_sensitive;
 	}
-	/**
-	 * @return the truncated
-	 */
 	public boolean isTruncated() {
 		return truncated;
 	}
-	/**
-	 * @param truncated the truncated to set
-	 */
 	public void setTruncated(boolean truncated) {
 		this.truncated = truncated;
 	}
